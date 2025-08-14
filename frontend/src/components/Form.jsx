@@ -26,7 +26,7 @@ function Form({ route, method }) {
         navigate("/login");
       }
     } catch (error) {
-      alert("Invalid username or password")
+      alert(error)
     } finally {
       setLoading(false);
     }
